@@ -1,0 +1,22 @@
+article {
+  padding: 1em;
+  color: $article-color;
+  text-shadow: $article-text-shadow;
+  font: $article-font;
+  background-color: $background-color;
+}
+
+article > header {
+  margin-bottom: 1em;
+}
+
+article > header > h1 {
+  font: $article-title-font;
+  color: $article-title-color;
+  text-shadow: $article-title-shadow;
+  letter-spacing: 0;
+}
+
+#blog-archives article {
+  padding: 0 1em;
+}

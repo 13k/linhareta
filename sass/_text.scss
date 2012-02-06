@@ -1,0 +1,26 @@
+// global
+$family-noticia: 'Noticia Text', serif;
+$family-specialelite: 'Special Elite', cursive;
+$family-frederika: 'Fredericka the Great', cursive;
+$text-font: 1em $family-noticia;
+$text-color: #000;
+$text-shadow: #aaa 1px 1px;
+$link-color: #000;
+$link-decoration: none;
+$link-visited-color: $link-color;
+$link-hover-color: #1458B8;
+// header
+$title-color: #000;
+$title-font: 2.5em/1.5em $family-frederika;
+$title-text-shadow: #ccc 1px 1px;
+$epigraph-color: #000;
+$epigraph-text-shadow: $text-shadow;
+$epigraph-font: 1em/1.25em $family-specialelite;
+$navigation-hover-color: #333;
+// content
+$article-color: #000;
+$article-text-shadow: #dadada 1px 1px;
+$article-font: 1.2em/1.75em $family-noticia;
+$article-title-color: #000;
+$article-title-shadow: #bbb 1px 1px;
+$article-title-font: 2.5em $family-noticia;
