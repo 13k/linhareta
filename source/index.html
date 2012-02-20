@@ -3,14 +3,14 @@ layout: default
 ---
 
 <nav id="navigation">
-  <a href="{{root_url}}/" title="Página principal">&#8962;</a>
+  <a href="{{site.root}}/" title="Página principal">&#8962;</a>
 {% if paginator.next_page %}
   <a href="{{paginator.next_page}}" title="Mais antigas">&larr;</a>
 {% endif %}
 {% if paginator.previous_page %}
   <a href="{{paginator.previous_page}}" title="Mais recentes">&rarr;</a>
 {% endif %}
-  <a href="/archives" title="Arquivo">&#9744;</a>
+  <a href="{{site.root}}/archives" title="Arquivo">&#9744;</a>
 </nav>
 
 {% assign index = true %}

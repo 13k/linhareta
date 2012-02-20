@@ -3,20 +3,18 @@
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="pt-BR"><!--<![endif]-->
 
-{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-
 {% include head.html %}
 
 <body>
   <header id="top">
-    <h1 id="title"><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+    <h1 id="title"><a href="{{ site.root }}/">{{ site.title }}</a></h1>
   </header>
 
   <q id="epigraph">Onde é que há gente no mundo?</q>
 
   <div id="container" class="container_16">
     <div id="box" class="grid_12 prefix_1 suffix_3">
-      {{ content | expand_urls: root_url }}
+      {{ content | expand_urls: site.root }}
     </div>
   </div>
 </body>

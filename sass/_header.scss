@@ -1,4 +1,7 @@
 $top-height: 128px;
+$top-zindex: 10;
+$title-zindex: $top-zindex + 5;
+$epigraph-zindex: $top-zindex - 5;
 
 #top {
   width: 100%;
@@ -6,7 +9,7 @@ $top-height: 128px;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10;
+  z-index: $top-zindex;
   background-color: transparent;
 
   $experimental-support-for-svg: true;
@@ -25,7 +28,7 @@ $top-height: 128px;
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 13;
+  z-index: $title-zindex;
   padding-right: 31px;
   color: $title-color;
   font: $title-font;
@@ -47,7 +50,7 @@ $top-height: 128px;
   color: $epigraph-color;
   font: $epigraph-font;
   text-shadow: $epigraph-text-shadow;
-  z-index: 5;
+  z-index: $epigraph-zindex;
 
   @include opaque;
   @include transition(all 1s ease-in-out);

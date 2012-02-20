@@ -1,6 +1,6 @@
 <head>
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  
+
   <meta charset="utf-8">
   <meta name="author" content="{{ site.author }}">
   {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
@@ -13,16 +13,16 @@
 
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical }}">
-  <link rel="icon" href="{{ root_url }}/favicon.png">
+  <link rel="icon" href="{{ site.root }}/favicon.png">
   <link rel="alternate" href="{{ site.subscribe_rss }}" title="{{site.title}}" type="application/atom+xml">
-  
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fredericka+the+Great|Special+Elite|Noticia+Text:400,400italic,700,700italic" type="text/css">
-  <link rel="stylesheet" href="{{ root_url }}/stylesheets/reset.css" type="text/css" media="screen, projection">
-  <link rel="stylesheet" href="{{ root_url }}/stylesheets/960.css" type="text/css" media="screen, projection">
-  <link rel="stylesheet" href="{{ root_url }}/stylesheets/screen.css" type="text/css" media="screen, projection">
-  
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fjord+One|Fredericka+the+Great|Special+Elite|Noticia+Text:400,400italic,700,700italic" type="text/css">
+  <link rel="stylesheet" href="{{ site.root }}/stylesheets/reset.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="{{ site.root }}/stylesheets/960.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="{{ site.root }}/stylesheets/screen.css" type="text/css" media="screen, projection">
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="{{ root_url }}/javascripts/linhareta.js"></script>
+  <script src="{{ site.root }}/javascripts/linhareta.js"></script>
 
   {% include google_analytics.html %}
 </head>

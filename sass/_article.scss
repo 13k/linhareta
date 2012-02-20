@@ -1,22 +1,160 @@
+@mixin quotes(
+  $set: '“' '”' '‘' '’',
+  $before: true,
+  $after: true)
+{
+  quotes: $set;
+
+  @if $before {
+    &:before {
+      content: open-quote;
+    }
+  }
+
+  @if $after {
+    &:after {
+      content: close-quote;
+    }
+  }
+}
+
+#blog-archives article {
+  padding: 0 1em;
+}
+
 article {
   padding: 1em;
   color: $article-color;
   text-shadow: $article-text-shadow;
   font: $article-font;
   background-color: $background-color;
-}
 
-article > header {
-  margin-bottom: 1em;
-}
+  > header {
+    margin-bottom: 1em;
 
-article > header > h1 {
-  font: $article-title-font;
-  color: $article-title-color;
-  text-shadow: $article-title-shadow;
-  letter-spacing: 0;
-}
+    > h1 {
+      font: $article-title-font;
+      color: $article-title-color;
+      text-shadow: $article-title-shadow;
+      letter-spacing: 0;
 
-#blog-archives article {
-  padding: 0 1em;
+      > a {
+        @include title-link;
+      }
+    }
+  }
+
+  a {
+    color: $article-link-color;
+    text-decoration: $link-decoration;
+
+    @include transition(color 300ms);
+
+    &:hover {
+      color: $article-link-hover-color;
+    }
+  }
+
+  > p {
+    margin: 1em 0;
+  }
+
+  hr {
+    border-top: 1px solid #444;
+    margin: 16px;
+  }
+
+  blockquote {
+    margin: 1em;
+    padding: 0.5em 1.5em 0.5em 2em;
+    background-color: $blockquote-bg-color;
+    font: $blockquote-font;
+    @include box-shadow($blockquote-box-shadow);
+    
+    &:before {
+      display: block;
+      position: relative;
+      height: 0;
+      content: "“";
+      top: -20px;
+      left: -120px;
+      z-index: $epigraph-zindex + 1;
+      font: italic 12em/1 Cochin,Georgia,"Times New Roman",serif;
+      color: #000;
+      text-shadow: 1px 1px #ccc;
+      @include opacity(0.75);
+    }
+
+    > p {
+      margin: 1em 0;
+    }
+
+    > footer {
+      color: $blockquote-footer-color;
+      text-align: right;
+
+      &:before {
+        content: "— ";
+      }
+
+      > cite {
+        @include quotes;
+      }
+    }
+  }
+
+  q, cite {
+    font-style: italic;
+  }
+
+  q {
+    @include quotes;
+  }
+
+  aside.image {
+    margin: {
+      top: 1em;
+      bottom: 1em;
+    }
+
+    img {
+      max-width: 100%;
+      @include box-shadow($image-box-shadow);
+    }
+
+    > footer {
+      color: $image-footer-color;
+      text-shadow: $image-footer-text-shadow;
+      font: $image-footer-font;
+
+      > cite {
+        @include quotes;
+      }
+    }
+  }
+
+  aside.image.centered {
+    img {
+      display: block;
+
+      margin: {
+        right: auto;
+        left: auto;
+      }
+    }
+
+    > footer {
+      text-align: center;
+    }
+  }
+
+  ol {
+    list-style-type: decimal;
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+
+  > footer {
+    font: $article-footer-font;
+  }
 }

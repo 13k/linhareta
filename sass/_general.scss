@@ -1,3 +1,5 @@
+$navigation-zindex: $top-zindex;
+
 body {
   color: $text-color;
   text-shadow: $text-shadow;
@@ -6,15 +8,19 @@ body {
   min-width: 960px;
 }
 
-a {
+@mixin title-link {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: $link-decoration;
 
   @include transition(color 300ms);
 
   &:hover {
     color: $link-hover-color;
   }
+}
+
+a {
+  @include title-link;
 }
 
 #container {
@@ -32,7 +38,7 @@ a {
   position: fixed;
   left: 0;
   width: 80px;
-  z-index: 13;
+  z-index: $navigation-zindex;
 
   a {
     display: block;

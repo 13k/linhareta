@@ -1,7 +1,8 @@
 // global
 $family-noticia: 'Noticia Text', serif;
-$family-specialelite: 'Special Elite', cursive;
-$family-frederika: 'Fredericka the Great', cursive;
+$family-specialelite: 'Special Elite', serif;
+$family-frederika: 'Fredericka the Great', serif;
+$family-fjord: 'Fjord One', serif;
 $text-font: 1em $family-noticia;
 $text-color: #000;
 $text-shadow: #aaa 1px 1px;
@@ -20,7 +21,15 @@ $navigation-hover-color: #333;
 // content
 $article-color: #000;
 $article-text-shadow: #dadada 1px 1px;
-$article-font: 1.2em/1.75em $family-noticia;
+$article-font: 1.2em/1.5em $family-noticia;
 $article-title-color: #000;
 $article-title-shadow: #bbb 1px 1px;
-$article-title-font: 2.5em $family-noticia;
+$article-title-font: 2em $family-noticia;
+$blockquote-font: 1em/1.2em $family-fjord;
+$blockquote-footer-color: #444;
+$image-footer-color: #333;
+$image-footer-text-shadow: #ccc 1px 1px;
+$image-footer-font: 0.75em/2.5em $family-noticia;
+$article-link-color: #0054A5;
+$article-link-hover-color: #3a3a3a;
+$article-footer-font: 0.9em/1.5em $family-fjord;
