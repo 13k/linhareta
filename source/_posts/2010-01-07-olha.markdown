@@ -1,0 +1,62 @@
+--- 
+layout: post
+title: Olha
+date: 2010-01-07 19:29:29 -02:00
+---
+
+<aside class="image centered">
+  [![As she puts on her coat][img]][link]
+  [link]: http://kyendo.deviantart.com/art/As-she-puts-on-her-coat-116799555
+  [img]: http://th03.deviantart.net/fs43/PRE/f/2009/081/b/8/As_she_puts_on_her_coat_by_Kyendo.jpg (As she puts on her coat)
+  <footer><cite>As she puts on her coat</cite> por Kyendo</footer>
+</aside>
+
+> Olha  
+> Será que ela é moça  
+> Será que ela é triste  
+> Será que é o contrário  
+> Será que é pintura  
+> O rosto da atriz
+> 
+> Se ela dança no sétimo céu  
+> Se ela acredita que é outro país  
+> E se ela só decora o seu papel  
+> E se eu pudesse entrar na sua vida
+> 
+> Olha  
+> Será que ela é de louça  
+> Será que é de éter  
+> Será que é loucura  
+> Será que é cenário  
+> A casa da atriz
+> 
+> Se ela mora num arranha-céu  
+> E se as paredes são feitas de giz  
+> E se ela chora num quarto de hotel  
+> E se eu pudesse entrar na sua vida
+> 
+> Sim, me leva pra sempre, Beatriz  
+> Me ensina a não andar com os pés no chão  
+> Para sempre é sempre por um triz  
+> Aí, diz quantos desastres tem na minha mão  
+> Diz se é perigoso a gente ser feliz
+> 
+> Olha  
+> Será que é uma estrela  
+> Será que é mentira  
+> Será que é comédia  
+> Será que é divina  
+> A vida da atriz
+> 
+> Se ela um dia despencar do céu  
+> E se os pagantes exigirem bis  
+> E se o arcanjo passar o chapéu  
+> E se eu pudesse entrar na sua vida
+> 
+> <footer>
+> <cite>Beatriz</cite>, Chico Buarque
+> </footer>
+
+onde é que há gente no mundo?  
+tanta gente  
+e nem ao menos sei quem és.

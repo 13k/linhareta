@@ -1,0 +1,12 @@
+--- 
+layout: post
+title: Mais um
+date: 2010-01-02 05:38:02 -02:00
+---
+
+> Amanhã sentar-me-ei à secretária para conquistar o mundo;  
+> Mas só conquistarei o mundo depois de amanhã...
+>
+> <footer>
+> [Trecho de] <cite>Amanhã</cite>, Fernando Pessoa
+> </footer>

@@ -1,0 +1,50 @@
+--- 
+layout: post
+title: "Café"
+date: 2009-11-19 23:24:05 -02:00
+---
+
+<aside class="image centered">
+  [![Coffee and Cosmopolitan][img]][link]
+  [link]: http://hansu87.deviantart.com/art/Coffee-and-Cosmopolitan-111115557
+  [img]: http://fc05.deviantart.net/fs40/f/2009/055/9/3/93cc8c2936d424b3b73e73425c045c6b.jpg (Coffee and Cosmopolitan)
+  <footer><cite>Coffee and Cosmopolitan</cite> por Hansu87</footer>
+</aside>
+
+> Desencarno arábias  
+> de uma xícara morna  
+> de café.  
+> E um fio negro  
+> me assedia a boca.  
+>   
+> (Através da janela  
+> o galho de pitanga  
+> ostenta seu adorno  
+> encarnado).  
+>   
+> Viajo  
+> pelo negror do pó:  
+> Dar-El-Salam,  
+> Bombaim,  
+> Áden  
+> (sem Nizan, sem Rimbaud):  
+> as colinas ocres,  
+> a poeira dos dias.  
+>   
+> De onde vem o grão  
+> dessa saudade?  
+>   
+> Desentranho arábias  
+> dessa xícara fria.  
+> Enquanto aguardo o dia  
+> que não chega.  
+>   
+> Desacordo e sorvo  
+> a sombra morna  
+> do que sou  
+> na borra  
+> do café.  
+> 
+> <footer>
+>   <cite>Café</cite>, Everardo Norões
+> </footer>

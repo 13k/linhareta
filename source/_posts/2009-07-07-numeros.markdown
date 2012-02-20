@@ -1,0 +1,9 @@
+--- 
+layout: post
+title: "Números"
+date: 2009-07-07 09:52:51 -03:00
+---
+
+Rotular, ordenar, enumerar  
+Verificar, acumular, somar  
+E reduzir a vida a um total de resultados vagos.  

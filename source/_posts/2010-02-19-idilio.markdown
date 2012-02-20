@@ -1,0 +1,30 @@
+--- 
+layout: post
+title: "Idílio"
+date: 2010-02-19 11:45:08 -02:00
+---
+
+<aside class="image centered">
+  ![Lone Tree &amp; Rocks][img]
+  [img]: http://web.mit.edu/deansgallery/Gregg/images/lonetree.gif (Lone Tree &amp; Rocks, Bassae, Greece)
+  <footer><cite>Lone Tree &amp; Rocks, Bassae, Greece</cite> por Sally Gregg</footer>
+</aside>
+
+---
+
+Hoje sinto a solidão como se fosse  
+uma árvore solitária no pasto  
+cujas folhas mais baixas foram comidas pelo gado,  
+podada em linha reta.  
+ 
+Aparada dessa maneira peculiar  
+sem aparente razão  
+a árvore apenas permanece curiosamente  
+posta sozinha naquele lugar  
+sem aparente objetivo.  
+
+Já o gado, que nunca vejo quando olho para a árvore  
+--- e portanto para mim invisível ---,  
+age inconsciente e talvez a única coisa que sinta  
+ao não poder alcançar além e comer todas as folhas  
+seja apenas a vontade de achar outra árvore.  
