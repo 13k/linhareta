@@ -19,7 +19,8 @@
 }
 
 #blog-archives article {
-  padding: 0 1em;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #e9e9e9;
 }
 
 article {
@@ -64,9 +65,10 @@ article {
     margin: 16px;
   }
 
-  blockquote {
-    margin: 1em;
-    padding: 0.5em 1.5em 0.5em 2em;
+  > blockquote {
+    display: inline-block;
+    margin: 1em auto;
+    padding: 0.5em 2em;
     background-color: $blockquote-bg-color;
     font: $blockquote-font;
     @include box-shadow($blockquote-box-shadow);
@@ -85,13 +87,26 @@ article {
       @include opacity(0.75);
     }
 
-    > p {
+    > blockquote {
+      display: inline-block;
+    }
+    
+    p {
       margin: 1em 0;
+      line-height: 1.5em;
+
+      .right {
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+      }
     }
 
     > footer {
       color: $blockquote-footer-color;
       text-align: right;
+      font-variant: small-caps;
+      padding: 0 1em;
 
       &:before {
         content: "— ";
@@ -99,6 +114,7 @@ article {
 
       > cite {
         @include quotes;
+        font-style: normal;
       }
     }
   }
