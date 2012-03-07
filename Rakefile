@@ -232,7 +232,7 @@ task :copydot, :source, :dest do |t, args|
 end
 
 desc "Deploy website via rsync"
-task :rsync do
+task :rsync => :generate do
   exclude = ""
   if File.exists?('./rsync-exclude')
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
