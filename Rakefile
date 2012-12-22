@@ -2,14 +2,15 @@ require "rubygems"
 require "bundler/setup"
 require "stringex"
 
+# Default deploy method
+deploy_default = "push"
+
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "linharet@linhareta.net"
-ssh_port       = "22"
-document_root  = "~/website.com/"
-rsync_delete   = false
-rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "rsync"
+ssh_user       = ""
+ssh_port       = ""
+document_root  = ""
+rsync_delete   = true
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
