@@ -32,7 +32,9 @@ date: 2010-12-12 00:21:42 -02:00
 > <footer>Ana Peluso em <cite>Tempo</cite></footer>
 
 O tempo adormece na madrugada.  
+
 Não sei se é a madrugada lá fora ou a que carrego dentro de mim.  
+
 Não as vejo e as sinto do mesmo jeito.  
 Não sei se é mesmo que doem ou se é o constante ruído da civilização,  
 Que em mim não sou eu e fora só faz lembrar-me disso.  
