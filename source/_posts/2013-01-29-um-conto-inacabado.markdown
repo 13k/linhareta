@@ -28,7 +28,7 @@ e o que importa não é se há discordância,
 mas que na maioria das vezes eles se divertem assim.  
 
 tem dia que nem se falam  
-e tem dia que tudo por um triz.  
+e tem dia que é tudo por um triz.  
 
 tem vezes que alice vai embora e nem diz nada,  
 e tem outras que poder dizer algo era tudo que quis.  
