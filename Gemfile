@@ -14,8 +14,14 @@ group :development do
   gem 'rubypants', '~> 0.2.0'
   gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
-  gem 'rb-fsevent', :require => RUBY_PLATFORM.include?('darwin') && 'rb-fsevent'
-  gem 'rb-inotify', :require => RUBY_PLATFORM.include?('linux') && 'rb-inotify'
+
+  if RUBY_PLATFORM['darwin']
+    gem 'rb-fsevent'
+  end
+
+  if RUBY_PLATFORM['linux']
+    gem 'rb-inotify'
+  end
 end
 
 gem 'sinatra', '~> 1.3.2'
